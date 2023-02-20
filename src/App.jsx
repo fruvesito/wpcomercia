@@ -1,8 +1,12 @@
 import ResponsiveAppBar from "./components/navbar"
+import Footer__Web from "./components/footer"
 
 function App() {
   return (
-    <ResponsiveAppBar/>
+    <>
+      <ResponsiveAppBar/>
+      <Footer__Web/>
+    </>
   )
 }
 
