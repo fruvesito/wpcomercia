@@ -6,7 +6,7 @@ function Navbar() {
       {/* Logo */}
       <div className="flex items-center">
         <a href='/' className='flex'>
-          <img className="h-8 mr-2" src="src\assets\logo.svg" alt="Logo" />
+          <img className="h-8 mr-2" src="src/assets/logo.svg" alt="Logo" />
           <span className="font-bold text-xl">wpComercia</span>
         </a>
       </div>
