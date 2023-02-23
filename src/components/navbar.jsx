@@ -1,8 +1,12 @@
 import React from 'react';
+import { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom'
+import MenuDesplegable from './menuDesplegable';
 
 function Navbar() {
+
   return (
-    <nav className="bg-blue-600 text-white py-4 px-6 flex justify-between items-center">
+    <nav className="bg-blue-600 text-white py-1 px-2 flex justify-between items-center">
       {/* Logo */}
       <div className="flex items-center">
         <a href='/' className='flex'>
@@ -12,11 +16,7 @@ function Navbar() {
       </div>
 
       {/* Menú */}
-      <ul className="flex">
-        <li className="mr-6"><a href="#" className="hover:text-gray-400">Inicio</a></li>
-        <li className="mr-6"><a href="#" className="hover:text-gray-400">Acerca de</a></li>
-        <li><a href="#" className="hover:text-gray-400">Contacto</a></li>
-      </ul>
+      <MenuDesplegable></MenuDesplegable>
     </nav>
   );
 }

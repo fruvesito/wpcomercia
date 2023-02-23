@@ -4,6 +4,7 @@ import Navbar from "./components/navbar"
 import ContenidoPrincipal from "./components/contenidoPrincipal";
 import PieDePagina from "./components/footer";
 import FormularioContacto from "./components/formularioContacto";
+import SobreNosotros from "./components/sobreNosotros";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Routes>
           <Route path="/" element={ <ContenidoPrincipal/> } />
           <Route path="/contacto" element={<FormularioContacto/>} />
+          <Route path="/info" element={<SobreNosotros/>} />
         </Routes>
 
         {/* Footer */}
