@@ -2,7 +2,7 @@ import React from 'react';
 
 function ContenidoPrincipal() {
   return (
-    <main className="bg-white py-4 px-6 grid grid-cols-3 gap-4">
+    <main className="py-4 px-6 grid grid-cols-3 gap-4">
       <h1 className="text-2xl font-bold mb-4 col-span-3">Mi Sitio Web</h1>
       
       {/* Columna 1 */}

@@ -5,7 +5,7 @@ module.exports = withMT({
   theme: {
     extend: {
       gridTemplateRows: {
-        'main':'5% auto 25%'
+        'main':'5%  1% auto 25%'
       }
     },
   },
