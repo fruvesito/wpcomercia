@@ -6,7 +6,7 @@ import MenuDesplegable from './menuDesplegable';
 function Navbar() {
 
   return (
-      <nav className="bg-blue-600 text-white py-1 px-2 flex justify-between items-center">
+      <nav className="glassMorphNavbar text-white py-1 px-2 flex justify-between items-center">
         {/* Logo */}
         <div className="flex items-center">
           <a href='/' className='flex'>

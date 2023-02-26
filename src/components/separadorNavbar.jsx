@@ -1,5 +1,5 @@
 export default function SeparadorNavbar(){
     return(
-        <section className="sectionHeader"></section>
+        <section className="sectionHeader glassMorphNavbar"></section>
     )
 }
